@@ -1,0 +1,13 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Criminal X| brookhaven(In Beta", "Midnight")
+
+local Tab = Window:NewTab("Home Settings")
+local Section = Tab:NewSection("Home")
+Section:NewLabel("Rainow House")
+
+local RainbowHouse = Section:NewButton("Rainbow", "Colorful", function()
+    print("Clicked")
+    
+end)
+
+local Tab = Window:NewTab("Soon!")
