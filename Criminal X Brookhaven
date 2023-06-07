@@ -11,3 +11,5 @@ local RainbowHouse = Section:NewButton("Rainbow", "Colorful", function()
 end)
 
 local Tab = Window:NewTab("Soon!")
+
+local Tab = Window:NewTab("Cars")
