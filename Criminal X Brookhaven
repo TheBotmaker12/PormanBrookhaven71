@@ -52,4 +52,5 @@ Reviz:SetParent(Infinite.container)
 end)
 local Tab = Window:NewTab("Fun!")
 local Section = Tab:NewSection("Spamming")
+Section:NewLabel("Spam chat(USE AT YOUR OWN RISK)")
 
