@@ -35,12 +35,11 @@ local Section = Tab:NewSection("Body")
 Section:NewLabel("Color")
 
 local Tab = Window:NewTab("Discord")
-local Section = Tab:NewSection("OUR DISCORD")
-local GuiService = game:GetService("GuiService")
-local DiscordLink = "https://discord.gg/criminalx"
+local Section = Tab:NewSection("Our discord")
 
-local button = script.Parent
+local Discord = Section:NewButton("Discord", "Get Our Link", function()
+    print("Clicked")
 
-button.Activated:Connect(function()
-    GuiService:OpenBrowserWindow(DiscordLink)
+setclipboard("https://discord.gg/criminalx")
+    
 end)
