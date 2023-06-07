@@ -44,3 +44,7 @@ Section:NewButton("Infinite Yield", "Best Admin", function()
     print("Clicked")
     
 end)
+
+local Tab = Window:NewTab("Fun!")
+local Section = Tab:NewSection("Spamming")
+
