@@ -14,6 +14,11 @@ local Tab = Window:NewTab("Cars")
 local Section = Tab:NewSection("Custom Car")
 Section:NewLabel("Color Car")
 
+local RainbowCar = Section:NewButton("Rainbow Car", "Colorful for ever", function()
+    print("Clicked")
+    
+end)
+
 local Section = Tab:NewSection("Car Settings")
 Section:NewLabel("Music")
 
