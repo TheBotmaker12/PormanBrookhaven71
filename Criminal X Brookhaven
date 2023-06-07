@@ -26,3 +26,6 @@ local Music = Section:NewButton("Music", "Play some Jams", function()
     print("Clicked")
     
 end)
+
+local Tab = Window:NewTab("Avatar")
+local Section = Tab:NewSection("Clothing Section")
