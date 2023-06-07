@@ -39,12 +39,12 @@ Section:NewLabel("Avatar Copier")
 
 local Tab = Window:NewTab("Admins")
 local Section = Tab:NewTab("Admin  scripts")
+Section:NewLabel("Infinite Yield")
 
-Section:NewButton("Infinite Yield", "Best Admin", function()
+local Infinite = Section:NewButton("Infinite Yield", "Best Admin!", function()
     print("Clicked")
     
 end)
 
 local Tab = Window:NewTab("Fun!")
 local Section = Tab:NewSection("Spamming")
-
