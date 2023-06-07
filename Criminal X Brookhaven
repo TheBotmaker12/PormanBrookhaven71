@@ -36,3 +36,11 @@ Section:NewLabel("Color")
 
 local Section = Tab:NewSection("Copy Avatars")
 Section:NewLabel("Avatar Copier")
+
+local Tab = Window:NewTab("Admins")
+local Section = Tab:NewTab("Admin  scripts")
+
+Section:NewButton("Infinite Yield", "Best Admin", function()
+    print("Clicked")
+    
+end)
