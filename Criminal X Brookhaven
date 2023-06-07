@@ -37,14 +37,19 @@ Section:NewLabel("Color")
 local Section = Tab:NewSection("Copy Avatars")
 Section:NewLabel("Avatar Copier")
 
-local Tab = Window:NewTab("Admins")
-local Section = Tab:NewTab("Admin  scripts")
-Section:NewLabel("Infinite Yield")
+local Tab = Window:NewTab("Pick Admin")
+local Section = Tab:NewSection("Pick your Admin here!")
+Section:NewLabel("IY/Reviz admin")
 
-local Infinite = Section:NewButton("Infinite Yield", "Best Admin!", function()
+local Infinite = Section:NewButton("Infinite", "The official script", function()
     print("Clicked")
     
 end)
+local Reviz = Section:NewButton("Reviz Admin", "2nd admin", function()
+    print("Clicked")
 
+Reviz:SetParent(Infinite.container)
+end)
 local Tab = Window:NewTab("Fun!")
 local Section = Tab:NewSection("Spamming")
+
