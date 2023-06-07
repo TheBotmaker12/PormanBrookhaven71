@@ -34,6 +34,13 @@ Section:NewLabel("Catalog Items")
 local Section = Tab:NewSection("Body")
 Section:NewLabel("Color")
 
-local Tab = Window:NewTab("DISCORD")
-local Section = Tab:NewSection("Join below")
-setclipboard("https://discord.gg/criminalx")
+local Tab = Window:NewTab("Discord")
+local Section = Tab:NewSection("OUR DISCORD")
+local GuiService = game:GetService("GuiService")
+local DiscordLink = "https://discord.gg/criminalx"
+
+local button = script.Parent
+
+button.Activated:Connect(function()
+    GuiService:OpenBrowserWindow(DiscordLink)
+end)
