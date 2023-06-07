@@ -34,12 +34,5 @@ Section:NewLabel("Catalog Items")
 local Section = Tab:NewSection("Body")
 Section:NewLabel("Color")
 
-local Tab = Window:NewTab("Discord")
-local Section = Tab:NewSection("Our discord")
-
-local Discord = Section:NewButton("Discord", "Get Our Link", function()
-    print("Clicked")
-
-setclipboard("https://discord.gg/criminalx")
-    
-end)
+local Section = Tab:NewSection("Copy Avatars")
+Section:NewLabel("Avatar Copier")
