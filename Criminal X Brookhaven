@@ -36,5 +36,4 @@ Section:NewLabel("Color")
 
 local Tab = Window:NewTab("DISCORD")
 local Section = Tab:NewSection("Join below")
-Section:NewLabel("OUR DISCORD")
 setclipboard("https://discord.gg/criminalx")
