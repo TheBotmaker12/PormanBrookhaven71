@@ -29,3 +29,4 @@ end)
 
 local Tab = Window:NewTab("Avatar")
 local Section = Tab:NewSection("Clothing Section")
+Section:NewLabel("Catalog Items")
