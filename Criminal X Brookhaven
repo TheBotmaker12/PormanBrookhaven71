@@ -68,5 +68,17 @@ setclipboard("https://discord.gg/criminalx")
     
 end)
 
+local Tab = Window:NewTab("Admin cmds")
+local Section = Tab:NewSection("Basic")
+
+Section:NewSlider("WalkSpeed", "Makes you run faster", 1000, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+local Section = Tab:NewSection("Flyspeed")
+
+Section:NewSlider("FlySpeed", "Speed your Fly!", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.Flyspeed = s
+end)
 
 
