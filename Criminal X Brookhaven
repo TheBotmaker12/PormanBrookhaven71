@@ -68,4 +68,9 @@ setclipboard("https://discord.gg/criminalx")
     
 end)
 
+local Tab = Window:NewTab("Info")
+
+Section:NewTextBox("Test", "Lol", function(txt)
+	print(txt)
+end)
 
