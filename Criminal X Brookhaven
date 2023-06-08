@@ -58,3 +58,14 @@ local Tab = Window:NewTab("Abuse")
 local Section = Tab:NewSection("Abuse section")
 
 
+local Tab = Window:NewTab("Support Server")
+local Section = Tab:NewSection("Join Our discord")
+
+Section:NewButton("Support Server", "Join Our support server", function()
+    print("Clicked")
+
+setclipboard("https://discord.gg/criminalx")
+    
+end)
+
+
