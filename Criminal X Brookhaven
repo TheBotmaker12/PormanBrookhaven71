@@ -75,3 +75,13 @@ Section:NewSlider("WalkSpeed", "Makes you run faster", 1000, 0, function(s) -- 5
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
+
+local Tab = Window:NewTab("Tools")
+local Section = Tab:NewSection("Weaponds")
+
+Section:NewButton("Gun", "Lol", function()
+   print("Clicked")
+
+setclipboard("https://create.roblox.com/marketplace/asset/7132994587/sniper-gun")
+    
+end)
